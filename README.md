@@ -1,5 +1,6 @@
 # 👋 Hi there! I'm Pushkar
 
+💼 LLM & Software Engineer
 🎓 UG @ IIT Guwahati | General Secretary, Coding Club  
 🧠 DS & AI enthusiast 🤓, always evolving with tech challenges 💻  
 🚀 Passionate about building scalable systems & meaningful tech-driven change
