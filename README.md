@@ -394,55 +394,71 @@ class PushkarKumarVats:
         self.name = "Pushkar Kumar Vats"
         self.role = "Full-Stack Engineer | Quant Developer | AI/ML Specialist"
         self.location = "India 🇮🇳"
-        
+
     def current_work(self):
         return {
-            "quantitative_systems": [
+            "Quantitative Systems": [
                 "High-Frequency Trading (HFT)",
-                "Algorithmic Trading Strategies",
+                "Algorithmic Trading Engines",
                 "Risk Analytics & Portfolio Optimization"
             ],
-            "ai_ml_engineering": [
+            "AI/ML Engineering": [
                 "Large Language Models (LLMs)",
-                "NLP Pipeline Development",
+                "NLP Pipelines & Retrieval Systems",
                 "Model Deployment & MLOps",
-                "Computer Vision Applications"
+                "Computer Vision Systems"
             ],
-            "full_stack_development": [
-                "Real-time WebSocket Systems",
-                "Microservices Architecture",
-                "API Gateway & Service Mesh",
+            "Full-Stack Engineering": [
+                "Real-Time WebSocket Architectures",
+                "Microservices & Distributed Systems",
+                "API Gateways & Service Mesh",
                 "Cloud-Native Applications"
             ],
-            "infrastructure": [
+            "Infrastructure": [
                 "Kubernetes Orchestration",
-                "Docker Container Optimization",
-                "CI/CD Pipeline Automation",
-                "Cloud Infrastructure (AWS/GCP)"
+                "Docker Performance Optimization",
+                "CI/CD Automation",
+                "Scalable Cloud Infra (AWS/GCP)"
             ]
         }
-    
+
     def learning_next(self):
         return [
-            "Advanced C++ for Ultra-Low Latency",
-            "Distributed Systems & CAP Theorem",
-            "Rust for System Programming",
-            "Real-time Stream Processing (Kafka)",
-            "Advanced Quantitative Strategies"
+            "Advanced C++ for Ultra-Low-Latency Systems",
+            "Distributed Systems Internals & CAP Theorem",
+            "Rust for High-Performance Computing",
+            "Real-Time Event Streaming (Kafka)",
+            "Advanced Quant Research & Strategies"
         ]
-    
+
     def tech_stack(self):
         return {
-            "languages": ["Python", "TypeScript", "JavaScript", "C++", "SQL", "Bash"],
-            "ai_ml": ["PyTorch", "TensorFlow", "Scikit-learn", "Pandas", "NumPy"],
-            "backend": ["FastAPI", "Node.js", "Express", "GraphQL", "gRPC"],
-            "frontend": ["React", "Next.js", "Vite", "TailwindCSS"],
-            "databases": ["PostgreSQL", "Redis", "MySQL", "Supabase"],
-            "devops": ["Docker", "Kubernetes", "AWS", "GCP", "Linux"],
-            "tools": ["Git", "Pytest", "Jupyter", "Prisma"]
+            "Languages": [
+                "Python", "TypeScript", "JavaScript", "C++", "SQL", "Bash"
+            ],
+            "AI/ML": [
+                "PyTorch", "TensorFlow", "Scikit-learn", "Pandas", "NumPy"
+            ],
+            "Backend": [
+                "FastAPI", "Node.js", "Express", "GraphQL", "gRPC"
+            ],
+            "Frontend": [
+                "React", "Next.js", "Vite", "TailwindCSS"
+            ],
+            "Databases": [
+                "PostgreSQL", "Redis", "MySQL", "Supabase"
+            ],
+            "DevOps": [
+                "Docker", "Kubernetes", "AWS", "GCP", "Linux"
+            ],
+            "Tools": [
+                "Git", "Pytest", "Jupyter", "Prisma"
+            ]
         }
 
+
 me = PushkarKumarVats()
+
 ```
 
 ---
