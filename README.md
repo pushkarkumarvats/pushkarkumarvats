@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Pushkar Kumar Vats
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Full-Stack+Engineer;Quantitative+Systems+Architect;AI%2FML+Engineer;Data+Scientist;DevOps+Specialist;Product+Innovator" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Full-Stack+Engineer;Quantitative+Systems+Architect;AI+Agent+Architect;AI%2FML+Engineer;Data+Scientist;DevOps+Specialist;Product+Innovator" alt="Typing SVG" />
 
 *Building production-grade systems at the intersection of finance, AI, and distributed architectures*
 
@@ -28,6 +28,148 @@ I architect and build **high-performance systems** spanning quantitative finance
 
 ---
 
+## �<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/pushkarkumarvats/OmniQuant">OmniQuant</a></h3>
+      <p><em>Unified Quantitative Research & Trading Simulation Platform</em></p>
+      <p>A hybrid Python / Rust / TypeScript system for strategy research, alpha generation, backtesting, and low-latency execution simulation.</p>
+      <ul>
+        <li><strong>oms-core:</strong> Native Rust Order Management System with BTreeMap order book matching, ITCH 5.0 feed parser, and WAL event journal.</li>
+        <li><strong>execution-algos:</strong> Implementations of TWAP, VWAP, POV, and Almgren-Chriss Implementation Shortfall.</li>
+        <li><strong>alpha-layer:</strong> PyTorch (LSTMs & Transformers) and XGBoost predictions coupled with dynamic risk/portfolio optimizers.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Rust-orange?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+        <img src="https://img.shields.io/badge/Python-blue?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Next.js-black?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎙️ <a href="https://github.com/pushkarkumarvats/pv-openai-agents-js">pv-openai-agents-js</a></h3>
+      <p><em>Multi-Agent Workflows & Voice Agent Framework</em></p>
+      <p>A lightweight, powerful TypeScript framework for orchestrating complex multi-agent collaborative workflows and streaming real-time voice agents.</p>
+      <ul>
+        <li><strong>multi-agent:</strong> Event-driven communication channels allowing cooperative problem-solving between specialized agent nodes.</li>
+        <li><strong>voice-streaming:</strong> Native integration with WebRTC and WebSocket voice streaming pipelines for zero-latency conversations.</li>
+        <li><strong>extensible tools:</strong> Modular tool registration using structured JSON Schemas and self-documenting function calls.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+        <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC" />
+        <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📡 <a href="https://github.com/pushkarkumarvats/FIX-SBE-Engine">FIX-SBE-Engine</a></h3>
+      <p><em>High-Performance Low-Latency Protocol Engine</em></p>
+      <p>High-speed implementation of FIX (Financial Information eXchange) and SBE (Simple Binary Encoding) protocols for ultra-low-latency electronic trading.</p>
+      <ul>
+        <li><strong>FIX session-layer:</strong> Safe state machine implementing logon, heartbeats, sequence number gap-fills, and automatic TCP/TLS reconnections.</li>
+        <li><strong>SBE serialization:</strong> Fast binary encoder/decoder optimized to operate directly on packet byte streams with zero allocation overhead.</li>
+        <li><strong>ocaml-dune:</strong> Engineered in OCaml, compiling to optimized native assembly with type safety and predictable GC profiles.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/OCaml-ef7a08?style=flat-square&logo=ocaml&logoColor=white" alt="OCaml" />
+        <img src="https://img.shields.io/badge/FIX_Protocol-blue?style=flat-square" alt="FIX Protocol" />
+        <img src="https://img.shields.io/badge/SBE-darkgreen?style=flat-square" alt="SBE" />
+        <img src="https://img.shields.io/badge/Low_Latency-red?style=flat-square" alt="Low Latency" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔥 <a href="https://github.com/pushkarkumarvats/isp_ban">isp_ban</a></h3>
+      <p><em>Supabase & Postgres Ban & Auth Management Engine</em></p>
+      <p>A specialized backend service built for network/ISP-level client ban management, user authorization, and row-level security policy control.</p>
+      <ul>
+        <li><strong>RLS & Policies:</strong> Implements secure PostgreSQL Row Level Security (RLS) configurations and custom database triggers.</li>
+        <li><strong>Supabase Auth:</strong> Leverages Supabase Go/JS SDKs and database schema structures to handle fast client-side validations.</li>
+        <li><strong>Database Maintenance:</strong> Idempotent SQL migrations tracking system tables, indexes, and performance metrics.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+        <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+        <img src="https://img.shields.io/badge/Auth-Management-orange?style=flat-square" alt="Auth Management" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💎 <a href="https://github.com/pushkarkumarvats/ZenithFi">ZenithFi</a></h3>
+      <p><em>Decentralized Finance Portal & Dashboard</em></p>
+      <p>A full-stack, visually rich decentralized finance (DeFi) portal for monitoring assets, liquidity pools, and real-time yield analytics.</p>
+      <ul>
+        <li><strong>DeFi Integration:</strong> Front-end dashboard connecting to major Web3 protocols for fast asset tracking and analytics.</li>
+        <li><strong>Interactive UI:</strong> Engineered with Next.js App Router, Tailwind CSS, and custom charting components for premium visualization.</li>
+        <li><strong>TypeScript Safety:</strong> Safe execution models utilizing TypeScript typing structures for contract ABIs and token statistics.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Next.js-black?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
+        <img src="https://img.shields.io/badge/Web3-DeFi-blueviolet?style=flat-square" alt="Web3 DeFi" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚢 <a href="https://github.com/pushkarkumarvats/Maritime-Vessel-Tracking-Application">Maritime-Vessel-Tracking</a></h3>
+      <p><em>Full-Stack Maritime Vessel Tracking System</em></p>
+      <p>A geospatial tracking and mapping application designed to monitor maritime vessel coordinates, route history, and real-time transit telemetry.</p>
+      <ul>
+        <li><strong>Geospatial Mapping:</strong> Real-time mapping rendering client coordinate feeds, route vectors, and custom overlays.</li>
+        <li><strong>Full-Stack Architecture:</strong> Built with TypeScript, React, and server-side components processing concurrent telemetry updates.</li>
+        <li><strong>Data Serialization:</strong> Optimized ingest parsers mapping vessel AIS signals and structural state reports.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+        <img src="https://img.shields.io/badge/Geospatial-API-brightgreen?style=flat-square" alt="Geospatial API" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/pushkarkumarvats/assig-ai-tut">assig-ai-tut</a></h3>
+      <p><em>Career Recommendation & Matching Engine</em></p>
+      <p>A machine learning engine focused on mapping student and user attributes to optimal career paths using scoring models.</p>
+      <ul>
+        <li><strong>Model Development:</strong> Python-based machine learning pipeline generating confidence scores and mapping models.</li>
+        <li><strong>Evaluation Pipelines:</strong> Automated validation metrics measuring classification accuracy and recommendation distribution.</li>
+        <li><strong>Predictive Analytics:</strong> Modular design engineered for ingestion of user attributes and fast offline inference iterations.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Python-blue?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
+        <img src="https://img.shields.io/badge/Machine_Learning-Algorithms-orange?style=flat-square" alt="Machine Learning" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>👁️ <a href="https://github.com/pushkarkumarvats/TheDecentralEye">TheDecentralEye</a></h3>
+      <p><em>Collaborative Career Roadmap & Mentor Platform</em></p>
+      <p>A community-driven, decentralized platform helping students and aspiring developers kickstart their careers in modern tech spaces.</p>
+      <ul>
+        <li><strong>roles/:</strong> Structured directories cataloging modern tech roles, required skills, and growth pathways.</li>
+        <li><strong>roadmap/:</strong> Community-validated, step-by-step guides and milestones to direct learning journeys.</li>
+        <li><strong>tools/:</strong> Curated lists of development environments, boilerplate templates, and educational resources.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Markdown-black?style=flat-square&logo=markdown&logoColor=white" alt="Markdown" />
+        <img src="https://img.shields.io/badge/Community-driven-brightgreen?style=flat-square" alt="Community Driven" />
+        <img src="https://img.shields.io/badge/Open_Source-blue?style=flat-square&logo=github&logoColor=white" alt="Open Source" />
+      </p>
+    </td>
+  </tr>
+</table>rce" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
 <div align="center">
 
 ## 🎯 Domain Expertise & Skills Matrix
@@ -41,7 +183,7 @@ I architect and build **high-performance systems** spanning quantitative finance
 
 **Core ML/AI Skills:**
 - 🧠 Deep Learning (PyTorch, TensorFlow)
-- � Natural Language Processing (NLP)
+- 💬 Natural Language Processing (NLP)
 - 🤖 Large Language Models (LLMs)
 - 🔄 Transformers & BERT Architecture
 - 👁️ Computer Vision (CV)
@@ -61,6 +203,34 @@ I architect and build **high-performance systems** spanning quantitative finance
 - 📊 Feature Engineering
 - 🎲 Predictive Modeling
 - 🌐 ML Pipeline Orchestration
+
+</td>
+</tr>
+</table>
+
+### 🤖 **AI Agents & Agentic Automation Architect**
+<table>
+<tr>
+<td width="50%">
+
+**Agentic Systems & Frameworks:**
+- 🤖 Multi-Agent Orchestration (CrewAI, AutoGen)
+- 🕸️ Stateful Agent Workflows (LangGraph, LangChain)
+- 🛠️ Tool Use & Function Calling (JSON Schema, Webhooks)
+- 💾 Agentic Memory & Semantic RAG (LlamaIndex, VectorDBs)
+- 🔄 Autonomous Self-Correction & Loop Patterns
+- 🧠 Reasoning & Planning Agents (ReAct, Plan-and-Solve)
+
+</td>
+<td width="50%">
+
+**Automation & Voice Tech:**
+- 🎙️ Real-Time Voice Agents (Vapi, Retell AI, LiveKit)
+- 🗣️ Speech-to-Text & TTS (ElevenLabs, Whisper)
+- ⚙️ Order & Workflow Automation (n8n, Make, Zapier)
+- ⚡ Event-Driven Execution (Inngest, QStash)
+- 🔗 API & Webhook Integrations (Composio, Apify)
+- 🛡️ Human-in-the-Loop (HITL) Guardrails
 
 </td>
 </tr>
@@ -292,6 +462,16 @@ I architect and build **high-performance systems** spanning quantitative finance
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
+### **AI Agents & Automation**
+![CrewAI](https://img.shields.io/badge/CrewAI-FF4B4B?style=for-the-badge&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-FF6F59?style=for-the-badge&logo=n8n&logoColor=white)
+![Make](https://img.shields.io/badge/Make-4F46E5?style=for-the-badge&logo=make&logoColor=white)
+![Zapier](https://img.shields.io/badge/Zapier-FF4F00?style=for-the-badge&logo=zapier&logoColor=white)
+![LiveKit](https://img.shields.io/badge/LiveKit-00A3E0?style=for-the-badge&logo=livekit&logoColor=white)
+![Vapi](https://img.shields.io/badge/Vapi-000000?style=for-the-badge&logo=vapi&logoColor=white)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-F0E6D2?style=for-the-badge&logo=elevenlabs&logoColor=black)
+
 ### **Backend & APIs**
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -369,6 +549,7 @@ I architect and build **high-performance systems** spanning quantitative finance
 |:--------------|:------------|
 | 🐍 **Python Development** | ![](https://geps.dev/progress/95?dangerColor=800000&warningColor=ff9900&successColor=006600) |
 | 🤖 **AI/ML Engineering** | ![](https://geps.dev/progress/90?dangerColor=800000&warningColor=ff9900&successColor=006600) |
+| 🤖 **AI Agents & Automation** | ![](https://geps.dev/progress/92?dangerColor=800000&warningColor=ff9900&successColor=006600) |
 | ⚛️ **React & Frontend** | ![](https://geps.dev/progress/85?dangerColor=800000&warningColor=ff9900&successColor=006600) |
 | 📊 **Quantitative Finance** | ![](https://geps.dev/progress/88?dangerColor=800000&warningColor=ff9900&successColor=006600) |
 | 🐳 **Docker & DevOps** | ![](https://geps.dev/progress/90?dangerColor=800000&warningColor=ff9900&successColor=006600) |
@@ -392,7 +573,7 @@ I architect and build **high-performance systems** spanning quantitative finance
 class PushkarKumarVats:
     def __init__(self):
         self.name = "Pushkar Kumar Vats"
-        self.role = "Full-Stack Engineer | Quant Developer | AI/ML Specialist"
+        self.role = "Full-Stack Engineer | Quant Developer | AI Agent & Automation Architect"
         self.location = "India 🇮🇳"
 
     def current_work(self):
@@ -407,6 +588,12 @@ class PushkarKumarVats:
                 "NLP Pipelines & Retrieval Systems",
                 "Model Deployment & MLOps",
                 "Computer Vision Systems"
+            ],
+            "AI Agents & Automation": [
+                "Multi-Agent Orchestration (CrewAI, AutoGen)",
+                "Stateful Workflows (LangGraph, Inngest)",
+                "Real-Time Voice Agents (Vapi, LiveKit, ElevenLabs)",
+                "Workflow & Order Automation (n8n, Make)"
             ],
             "Full-Stack Engineering": [
                 "Real-Time WebSocket Architectures",
@@ -426,6 +613,7 @@ class PushkarKumarVats:
         return [
             "Advanced C++ for Ultra-Low-Latency Systems",
             "Distributed Systems Internals & CAP Theorem",
+            "Voice Streaming & WebRTC Protocols",
             "Rust for High-Performance Computing",
             "Real-Time Event Streaming (Kafka)",
             "Advanced Quant Research & Strategies"
@@ -438,6 +626,9 @@ class PushkarKumarVats:
             ],
             "AI/ML": [
                 "PyTorch", "TensorFlow", "Scikit-learn", "Pandas", "NumPy"
+            ],
+            "AI Agents & Automation": [
+                "CrewAI", "LangGraph", "LangChain", "n8n", "Make", "LiveKit", "Vapi"
             ],
             "Backend": [
                 "FastAPI", "Node.js", "Express", "GraphQL", "gRPC"
